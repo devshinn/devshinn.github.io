@@ -1,6 +1,6 @@
 ---
+published: true
 title: test contents-1
-date: 2021-11-05 18:02:19
 tags:
   - 코드
   - 노루

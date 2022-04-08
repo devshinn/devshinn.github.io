@@ -46,6 +46,18 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
+      <div id="kakao-pay-link-btn">
+        <a href="https://qr.kakaopay.com/Ej8Nk2UNL" class="btn btn--kakaopay">
+          <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
+            <span>Buy me a coffee to kakao</span>
+        </a>
+
+        <a href="https://qr.kakaopay.com/Ej8Nk2UNL" class="btn btn--toss">
+          <i class="fa-fw fas fa-coffee" aria-hidden="true"></i>
+            <span>Buy me a coffee to toss</span>
+        </a>
+      </div>
+      
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>

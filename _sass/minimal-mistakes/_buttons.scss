@@ -6,6 +6,7 @@
    Default button
    ========================================================================== */
 
+   
 .btn {
   /* default */
   display: inline-block;
@@ -30,6 +31,8 @@
 
   /* button colors */
   $buttoncolors:
+  (kakaopay,  #fef01b),
+  (toss,  #1b45fe),
   (primary, $primary-color),
   (inverse, #fff),
   (light-outline, transparent),
