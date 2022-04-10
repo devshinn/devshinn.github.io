@@ -19,14 +19,14 @@ dark_theme_toggle: true # 다크 모드 토글 기능 추가
 locale: 'ko-KR'
 title: 'STUDY'
 title_separator: '-'
-subtitle: # site tagline that appears below site title in masthead
-name: 'shinh'
+subtitle: '코드 저장소'
+name: 'SHINH'
 description: '안녕하세요?~!'
 url: 'https://developshin.github.io/'
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# logo: '/assets/images/88x88.png'
+logo: '/assets/Images/logo.webp'
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 future: true
 # breadcrumbs            : false # true, false (default)
@@ -57,64 +57,20 @@ comments:
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey:
-  secret:
-atom_feed:
-  path: # blank (default) uses feed.xml
-  hide: # true, false (default)
-search: # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
-# SEO Related
-google_site_verification:
-bing_site_verification:
-naver_site_verification:
-yandex_site_verification:
-baidu_site_verification:
-
-# Social Sharing
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image: # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type: # Person or Organization (defaults to Person)
-  name: # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
   name: 'shinh'
   avatar: '/assets/Images/user.jpg'
-  bio: '.공부안하는공대생.'
+  bio: '코드저장소'
 
-  location: '서울/대한민국'
-  email: 'hostomer@khu.ac.kr'
+  location: 'Republic of Korea'
+  # email: 'hostomer@khu.ac.kr'
+  github:
   links:
-    - label: 'Email'
-      icon: 'fas fa-fw fa-envelope-square'
-      url: 'hostomer@khu.ac.kr'
+    # - label: 'Email'
+    #   icon: 'fas fa-fw fa-envelope-square'
+    #   url: 'hostomer@khu.ac.kr'
 
     - label: 'Website'
       icon: 'fas fa-fw fa-link'
@@ -127,7 +83,7 @@ author:
       # url: "https://facebook.com/"
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
-      # url: "https://github.com/"
+      url: 'https://github.com/DevelopShin'
     - label: 'Instagram'
       icon: 'fab fa-fw fa-instagram'
       # url: "https://instagram.com/"
@@ -135,23 +91,17 @@ author:
 # Site Footer
 footer:
   links:
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
+    - label: 'Email'
+      icon: 'fas fa-fw fa-envelope-square'
       # url:
     - label: 'Facebook'
       icon: 'fab fa-fw fa-facebook-square'
       # url:
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
-      # url:
+      url: 'https://github.com/DevelopShin'
     - label: 'GitLab'
       icon: 'fab fa-fw fa-gitlab'
-      # url:
-    - label: 'Bitbucket'
-      icon: 'fab fa-fw fa-bitbucket'
-      # url:
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
       # url:
 
 # Reading Files
@@ -258,6 +208,16 @@ compress_html:
   ignore:
     envs: development
 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 # Defaults
 defaults:
   # _posts
@@ -267,14 +227,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: '_pages'
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      sidebar_main: true
+  # # _pages
+  # - scope:
+  #     path: '_pages'
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true

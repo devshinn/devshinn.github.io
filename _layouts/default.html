@@ -12,6 +12,50 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+
+    <!-- Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+    <!-- NanumGothic -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+    
+    <!-- NanumGothicCoding -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic-coding.css" rel="stylesheet">
+    
+    <!-- Gowun Dodum -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <!-- Ubuntu Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <style> 
+      ::-webkit-scrollbar{
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background-color:#dedede;
+        border-radius: 16px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color:#adadac;
+        border-radius: 16px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #c42f96;
+      }
+      ::-webkit-scrollbar-button:start:decrement,
+      ::-webkit-scrollbar-button:end:increment 
+      {
+          width:12px;
+          height:12px;
+          background:transparent;
+      } 
+    </style>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -37,6 +81,14 @@
     </div>
 
     {% include scripts.html %}
+
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>
+      addBackToTop({
+      diameter: 40,
+      backgroundColor: '#fff',
+      textColor: '#000'
+    })</script>
 
   </body>
 </html>

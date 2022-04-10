@@ -168,7 +168,7 @@ body {
 
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -222,6 +222,8 @@ body {
     }
   }
 }
+
+
 
 .page__hero-image {
   width: 100%;
@@ -317,15 +319,36 @@ body {
 /*
    Page taxonomy
    ========================================================================== */
+//header info
+.page__date{
+  margin:0;
+  font-size: 13px;
+  color: #fff8;
+}
 
 .page__taxonomy {
+  margin: 5px;
+  font-size: 15px;
   .sep {
     display: none;
   }
 
   strong {
     margin-right: 10px;
+    color: rgb(245, 220, 1);
   }
+}
+.posts__footer{
+  cursor: default;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.tags-categoris{
+  margin-bottom: 30px;
+  border-bottom: solid 3px gray;
 }
 
 .page__taxonomy-item {
