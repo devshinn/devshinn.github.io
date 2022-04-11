@@ -6,9 +6,12 @@
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign tags = post.tags %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+
+
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
@@ -26,5 +29,17 @@
     </h2>
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    
+    <div class="page__tags">
+      {% if site.data.ui-text[site.locale].meta_label %}
+      <p class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</p>
+      {% endif %}
+      {% include page__date.html %}
+
+      {% if post.tags[0] %}
+      {% include tag-post.html %}
+      {% endif %}
+<hr style="margin-top: -5px;"/>
+    </div>
   </article>
 </div>

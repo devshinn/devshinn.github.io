@@ -229,6 +229,7 @@ defaults:
       author_profile: true
       read_time: false
       show_date: true
+      show_tag: true
       comments: true
       share: true
       related: true
