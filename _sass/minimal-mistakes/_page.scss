@@ -366,6 +366,35 @@ body {
   }
 }
 
+.nav__tag__cloud {
+  max-width: 278px;
+  .tag__list{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+
+  .nav-tag-title{
+    font-size: 20px;
+    color: #f5dc01;
+
+  }
+
+  .tag__word{  display: inline-block;
+    margin: 3px;
+    padding: 3px 10px;
+    text-decoration: none;
+    border: 1px solid mix(#000, $border-color, 25%);
+    border-radius: $border-radius;
+    transition: all 0.2s linear;
+    &:hover {
+      text-decoration: none;
+      color: $link-color-hover;
+      transform: scale(1.2);
+    }}
+
+}
+
 .taxonomy__section {
   margin-bottom: 2em;
   padding-bottom: 1em;

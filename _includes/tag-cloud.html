@@ -1,0 +1,13 @@
+<section class="tag__list">
+  {% for tag in site.tags %}
+      {% assign tag_word = tag | first %}
+      {% if site.tags[tag_word].size > 0 %}
+    
+          <spa class="tag__border" style="font-size:{{ tag | last | size | times: 0.5 | plus: 11 }}px">
+            <a href="#" class="tag__word"  >{{ tag_word }}</a> &nbsp;
+          </spa>
+      {% endif %}
+  {% endfor %}
+</section>
+
+<!-- tag | last | size | times: 100 |  divided_by: site.tags.size | plus: 70 -->

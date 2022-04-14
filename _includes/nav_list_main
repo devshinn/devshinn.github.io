@@ -28,5 +28,13 @@
                 {% endfor %}
             </ul>
 
-       </li>
+      </li>
+      <div class="nav__tag__cloud">
+       <span class="nav-tag-title">TAG CLOUD</span>
+       <div class="nav__tag-item">
+        {% include tag-cloud.html %}
+       </div>
+      </div>
+
+      
 </nav>
