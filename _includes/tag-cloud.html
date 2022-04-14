@@ -1,10 +1,17 @@
 <section class="tag__list">
+  {% case site.tag_archive.type %}
+  {% when "liquid" %}
+    {% assign path_type = "#" %}
+  {% when "jekyll-archives" %}
+    {% assign path_type = nil %}
+{% endcase %}
+
   {% for tag in site.tags %}
       {% assign tag_word = tag | first %}
       {% if site.tags[tag_word].size > 0 %}
     
           <spa class="tag__border" style="font-size:{{ tag | last | size | times: 0.5 | plus: 11 }}px">
-            <a href="#" class="tag__word"  >{{ tag_word }}</a> &nbsp;
+            <a href="{{ tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="tag__word"  >{{ tag_word }}</a> &nbsp;
           </spa>
       {% endif %}
   {% endfor %}
