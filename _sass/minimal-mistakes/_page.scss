@@ -73,7 +73,7 @@ body {
 }
 
 .page__title {
-  margin-top: 0;
+  margin-top: 30;
   line-height: 1;
 
   a {
@@ -354,15 +354,21 @@ body {
 .page__taxonomy-item {
   display: inline-block;
   margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin-bottom: 3px;
+  padding: 2px 5px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  border-bottom: 2px solid mix(#000, $border-color, 25%);
+  border-top: 2px solid mix(#000, $border-color, 25%);
+
   border-radius: $border-radius;
 
   &:hover {
+
     text-decoration: none;
     color: $link-color-hover;
+    transition: all 0.2s linear;
+    transform: scale(1.2);
+    
   }
 }
 
@@ -376,20 +382,23 @@ body {
 
   .nav-tag-title{
     font-size: 20px;
-    color: #f5dc01;
+    font-weight: bold;
+    // color: #f5dc01;
 
   }
 
   .tag__word{  display: inline-block;
-    margin: 3px;
+    margin: 2px;
     padding: 3px 10px;
     text-decoration: none;
-    border: 1px solid mix(#000, $border-color, 25%);
+    border-bottom: 3px solid mix(#000, $border-color, 25%);
+    border-top: 1px solid mix(#000, $border-color, 25%);
+
     border-radius: $border-radius;
-    transition: all 0.2s linear;
     &:hover {
       text-decoration: none;
       color: $link-color-hover;
+    transition: all 0.2s linear;
       transform: scale(1.2);
     }}
 
