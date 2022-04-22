@@ -17,17 +17,17 @@ dark_theme_toggle: true # 다크 모드 토글 기능 추가
 
 # Site Settings
 locale: 'ko-KR'
-title: 'STUDY'
+title: '달려달려'
 title_separator: '-'
-subtitle: '코드 저장소'
+# subtitle: 'Time Storage'
 name: 'SHINH'
-description: '안녕하세요?~!'
+description: 'JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 개발 공부하는 블로그'
 url: 'https://developshin.github.io/'
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: 'developShin/developshin.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: '/assets/Images/logo.webp'
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: '달려달려'
 future: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
@@ -52,9 +52,9 @@ comments:
 
 # Site Author
 author:
-  name: 'shinh'
+  name: 'Shin Kim'
   avatar: '/assets/Images/user.jpg'
-  bio: '코드저장소'
+  bio: '기록 할려는 개개발자'
 
   location: 'Republic of Korea'
   # email: 'hostomer@khu.ac.kr'

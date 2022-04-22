@@ -49,11 +49,17 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing:1px;
+
+  font-family:  establishRetrosansOTF,'Times New Roman', Times, serif;
+  // font-weight: bold;
   // z-index: 20;
+
 }
 
 .site-subtitle {
+  letter-spacing:2px;
   display: block;
   font-size: $type-size-8;
 }
