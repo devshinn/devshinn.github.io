@@ -1,32 +1,32 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: 'dark' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 dark_theme_toggle: true # 다크 모드 토글 기능 추가
 
 # Site Settings
-locale: 'ko-KR'
-title: '달려달려'
-title_separator: '-'
+locale: "ko-KR"
+title: "달려달려"
+title_separator: "-"
 # subtitle: 'Time Storage'
-name: 'SHINH'
-description: 'JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 개발 공부하는 블로그'
-url: 'https://developshin.github.io/'
+name: "SHINH"
+description: "JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 개발 공부하는 블로그"
+url: "https://developshin.github.io/"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: 'developShin/developshin.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: '/assets/Images/logo.webp'
-masthead_title: '달려달려'
+logo: "/assets/Images/logo.webp"
+masthead_title: "달려달려"
 future: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 
 comments:
-  provider: 'utterances' # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
 
   utterances:
-    theme: 'photon-dark' # "github-light" (default), "github-dark" "photon-dark"
-    label: '✨comment✨'
-    issue_term: 'pathname' # "pathname" (default)
+    theme: "photon-dark" # "github-light" (default), "github-dark" "photon-dark"
+    label: "✨comment✨"
+    issue_term: "pathname" # "pathname" (default)
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
     category_name: # Full text name of the category
@@ -40,11 +40,11 @@ comments:
 
 # Site Author
 author:
-  name: 'Shin Kim'
-  avatar: '/assets/Images/user.jpg'
-  bio: '기록 하려는 개개발자'
+  name: "Shin Kim"
+  avatar: "/assets/Images/user.jpg"
+  bio: "기록 하려는 개개발자"
 
-  location: 'Republic of Korea'
+  location: "Republic of Korea"
   # email: 'hostomer@khu.ac.kr'
   github:
   links:
@@ -52,36 +52,36 @@ author:
     #   icon: 'fas fa-fw fa-envelope-square'
     #   url: 'hostomer@khu.ac.kr'
 
-    - label: 'Website'
-      icon: 'fas fa-fw fa-link'
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: 'Facebook'
-      icon: 'fab fa-fw fa-facebook-square'
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/DevelopShin'
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DevelopShin"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: 'Email'
-      icon: 'fas fa-fw fa-envelope-square'
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
       # url:
-    - label: 'Facebook'
-      icon: 'fab fa-fw fa-facebook-square'
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/DevelopShin'
-    - label: 'GitLab'
-      icon: 'fab fa-fw fa-gitlab'
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DevelopShin"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
       # url:
 
 # Reading Files
@@ -89,8 +89,8 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -118,8 +118,8 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: 'utf-8'
-markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
@@ -153,9 +153,9 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -192,7 +192,7 @@ jekyll-archives:
 defaults:
   # _posts
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: single
@@ -212,4 +212,4 @@ jekyll_admin:
     - staticfiles
     - datafiles
     - configuration
-  homepage: 'pages'
+  homepage: "pages"
