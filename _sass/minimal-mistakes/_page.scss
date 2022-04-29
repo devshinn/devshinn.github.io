@@ -375,8 +375,8 @@ body {
 .nav__tag__cloud {
   max-width: 278px;
   .tag__list{
-    max-height: 300px;
-    overflow-y: scroll;
+    max-height: 500px;
+    // overflow-y: scroll;/태그 많을때 스크롤
   }
 
 
