@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://developshin.github.io/sitemap.xml
+Sitemap: https://developshin.github.io//sitemap.xml
