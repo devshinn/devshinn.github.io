@@ -10,10 +10,10 @@ title_separator: "-"
 # subtitle: 'Time Storage'
 name: "SHINH"
 description: "JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 개발 공부하는 블로그"
-url: https://developshin.github.io
+url: https://developshin.github.io #gkd
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: /developshin/ # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/Images/logo.webp"
 masthead_title: "달려달려"
 future: true
@@ -37,6 +37,52 @@ comments:
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
+
+# 구글 recaptcha 세팅
+reCaptcha:
+  siteKey:
+  secret:
+atom_feed:
+  path: # blank (default) uses feed.xml
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: # lunr (default), algolia, google
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
+google:
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
+
+# SEO Related
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
+
+# Social Sharing
+twitter:
+  username:
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider: false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id:
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
