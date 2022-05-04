@@ -13,7 +13,7 @@ description: "JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 �
 url: https://developshin.github.io #gkd
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: /assets/Images/logo.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: /assets/Images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/Images/logo.webp"
 masthead_title: "달려달려"
 future: true
