@@ -498,11 +498,15 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  cursor:default;
 
 }
 .nav__sub-items {
   margin-left:0.5rem;
   li{
+    :hover{
+      border-bottom: 1px solid #fff;
+    }
   }
 }
 .total_post_len{
