@@ -13,7 +13,7 @@ categories:
 toc_sticky: true
 ---
 
-![1685174785437](image/useLocalstate/1685174785437.png)
+![1685177709946](image/useLocalstate/1685177709946.png)
 
 ```ts
 constHooksTestPage= () => {
