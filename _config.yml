@@ -15,7 +15,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: /assets/images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo.webp"
-masthead_title: "devShin"
+masthead_title: "DevShin"
 future: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
