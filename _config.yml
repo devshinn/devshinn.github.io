@@ -5,7 +5,7 @@ dark_theme_toggle: true # 다크 모드 토글 기능 추가
 
 # Site Settings
 locale: "ko-KR"
-title: "달려달려"
+title: "DevShin"
 title_separator: "-"
 # subtitle: 'Time Storage'
 name: "SHINH"
@@ -15,7 +15,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: /assets/Images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/Images/logo.webp"
-masthead_title: "달려달려"
+masthead_title: "DevShin"
 future: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
