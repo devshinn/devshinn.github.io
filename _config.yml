@@ -13,8 +13,8 @@ description: "JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 �
 url: https://developshin.github.io #gkd
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: /assets/Images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: "/assets/Images/logo.webp"
+teaser: /assets/images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: "/assets/images/logo.webp"
 masthead_title: "devShin"
 future: true
 # breadcrumbs            : false # true, false (default)
@@ -86,7 +86,7 @@ analytics:
 # Site Author
 author:
   name: "Shin Kim"
-  avatar: "/assets/Images/user.jpg"
+  avatar: "/assets/images/user.jpg"
   bio: "software engineer"
 
   location: "Republic of Korea"
