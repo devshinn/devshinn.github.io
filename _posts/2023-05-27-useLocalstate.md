@@ -18,7 +18,7 @@ toc_sticky: true
 
 ```ts
 const HooksTestPage = () => {
-  const [store, setStore] = useLocalStorage`<Boolean>`("isReact", true);
+  const [store, setStore] = useLocalStorage<Boolean>("isReact", true);
 
   const onChangeStoreValue = () => {
     setStore((v: boolean) => (v ? false : true));
