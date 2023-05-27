@@ -15,7 +15,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: /assets/Images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/Images/logo.webp"
-masthead_title: "DevShin"
+masthead_title: "devShin"
 future: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
@@ -87,7 +87,7 @@ analytics:
 author:
   name: "Shin Kim"
   avatar: "/assets/Images/user.jpg"
-  bio: "기록 하려는 개개발자"
+  bio: "software engineer"
 
   location: "Republic of Korea"
   # email: 'hostomer@khu.ac.kr'
@@ -133,7 +133,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

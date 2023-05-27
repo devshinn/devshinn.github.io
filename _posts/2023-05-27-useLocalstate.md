@@ -1,52 +1,42 @@
 ---
-title: test contents-1
+title: Using localStorage with react custom hooks
 published: true
-excerpt: 첫번째 포스팅
+excerpt: useLocalStorage
 tags:
   - react
-  - hooks
+  - hook
   - localstorage
   - sessionstorage
 categories:
   - React
-  - hooks
 toc_sticky: true
 ---
 
-![1685177709946](image/useLocalstate/1685177709946.png)
+![image1](/assets/images/posts/1685177709946.png)
+
+### 사용 예시
 
 ```ts
-constHooksTestPage= () => {
+const HooksTestPage = () => {
+  const [store, setStore] = useLocalStorage`<Boolean>`("isReact", true);
 
-  const [store, setStore] =useLocalStorage`<Boolean>`("isReact", true);
-
-  constonChangeStoreValue= () => {
-
-    setStore((v:boolean) => (v?false:true));
-
+  const onChangeStoreValue = () => {
+    setStore((v: boolean) => (v ? false : true));
   };
 
   return (
-
-    <divclassName="p-5 m-5 border-2 rounded">
-
-    `<div>`storeValue : {store?"true":"false"}`</div>`
-
-    `<br/>`
-
-    <buttononClick={onChangeStoreValue}>changeValue`</button>`
-
-    `</div>`
-
+    <div className="p-5 m-5 border-2 rounded">
+      <div>storeValue : {store ? "true" : "false"}</div>
+      <br />
+      <button onClick={onChangeStoreValue}>changeValue</button>
+    </div>
   );
-
 };
 
-exportdefaultHooksTestPage;
-
+export default HooksTestPage;
 ```
 
-/
+### custom hook
 
 ```ts
 // Hook
