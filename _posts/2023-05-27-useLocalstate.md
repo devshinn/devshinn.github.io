@@ -1,6 +1,5 @@
 ---
 title: Using localStorage with react custom hooks
-published: true
 excerpt: useLocalStorage
 tags:
   - react
@@ -10,6 +9,10 @@ tags:
 categories:
   - React
 toc_sticky: true
+published: true
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 ![image1](/assets/images/posts/1685177709946.png)
