@@ -1,5 +1,5 @@
 ---
-title: Neatly styling tailwindcss with variables
+title: 변수를 사용하여 tailwindcss를 깔끔하게 스타일링 하기
 excerpt: tailwindcss styling
 tags:
   - react/next
