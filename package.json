@@ -1,8 +1,8 @@
 {
-  "name": "minimal-mistakes",
+  "name": "shin-blog",
   "private": true,
   "version": "4.24.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "description": "shin-blog",
   "repository": {
     "type": "git",
     "url": "git://github.com/mmistakes/minimal-mistakes.git"
