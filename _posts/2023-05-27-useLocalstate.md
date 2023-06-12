@@ -7,7 +7,7 @@ tags:
   - localstorage
   - sessionstorage
 categories:
-  - React
+  - react/next
 toc_sticky: true
 published: true
 sitemap:
