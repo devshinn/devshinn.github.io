@@ -10,9 +10,9 @@ title_separator: "-"
 # subtitle: 'Time Storage'
 name: "SHINH"
 description: "JAVASCRIPT,TYPESCRIPT, NODEJS, PYATHON, 등 다양한 언어로 개발 공부하는 블로그"
-url: https://developshin.github.io #gkd
+url: https://devsihn.github.io #gkd
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "developShin/developshin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "devsihn/devsihn.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: /assets/images/fishing-yeti.webp # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo.webp"
 masthead_title: "DevShin"
@@ -108,7 +108,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DevelopShin"
+      url: "https://github.com/devsihn"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -124,7 +124,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DevelopShin"
+      url: "https://github.com/devsihn"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
