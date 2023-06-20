@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devsihn.github.io/sitemap.xml
+Sitemap: https://devshinn.github.io/sitemap.xml
